@@ -33,6 +33,9 @@ init()
 # needed for the binance API / websockets / Exception handling
 from binance.client import Client
 from binance.exceptions import BinanceAPIException
+# Tradingview Signal
+from tradingview_ta import TA_Handler, Interval, Exchange
+
 
 # used for dates
 from datetime import date, datetime, timedelta
