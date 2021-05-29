@@ -29,8 +29,47 @@ trading_options:
     - GBPUSDT
     - JPYUSDT
     - USDUSDT
+    - USDUSDC
+    - USDCUSDT
+    - BUSDUSDT
+    - EURBUSD
     - DOWN
     - UP
+    - USDTTRY
+    - USDTBRL
+    - USDTIDRT
+    - BCHA
+    - CVP
+    - LIT
+    - WRX
+    - USDTDAI
+    - USDTUAH
+    - USDTRUB
+    - USDTBIDR
+    - USDTNGN
+    - BUSDTRY
+    - DIAUSDT
+    - PAXGUSDT
+    - BCCUSDT
+    - VENUSDT
+    - BCHSVUSDT
+    - USDSUSDT
+    - PAXUSDT
+    - USDSBUSDT
+    - ERDUSDT
+    - NPXSUSDT
+    - STORMUSDT
+    - HCUSDT
+    - MCOUSDT
+    - BULLUSDT
+    - BEARUSDT
+    - STRATUSDT
+    - USDTZAR
+    - XZCUSDT
+    - LENDUSDT
+    - BKRW
+    - DAI
+    - GYEN
 
   # Maximum number of trade 'slots' at any time (your USDT balance must be at least MAX_COINS * QUANTITY)
   MAX_COINS: 7
@@ -72,6 +111,7 @@ trading_options:
   
   SIGNALLING_MODULES:
     - pausebotmod
-    - signalsamplemod
+    - custsignalmod
+    #- signalsamplemod
     
   
